@@ -35,9 +35,13 @@
   <div class="reveal">
     <div class="slides">
 
-
         <section id="thanks-for-coming" class="slide level1">
             <h1>Thanks for Coming!</h1>
+
+            <aside class="notes">
+              Test notes...
+            </aside>
+
             <p><em>A presentation by Laurens and Amit</em></p>
         </section>
 
@@ -50,6 +54,7 @@
   <script src="reveal.js/plugin/notes/notes.js"></script>
   <script src="reveal.js/plugin/search/search.js"></script>
   <script src="reveal.js/plugin/zoom/zoom.js"></script>
+  <script src="reveal.js/plugin/markdown/markdown.js"></script>
 
   <script>
 
@@ -74,7 +79,7 @@
         progress: true,
 
         // Display the page number of the current slide
-        slideNumber: false,
+        slideNumber: true,
 
         // 'all', 'print', or 'speaker'
         showSlideNumber: 'all',
@@ -84,7 +89,7 @@
         hash: true,
 
         // Start with 1 for the hash rather than 0
-        hashOneBasedIndex: false,
+        hashOneBasedIndex: true,
 
         // Flags if we should monitor the hash and change slides accordingly
         respondToHashChanges: true,
@@ -200,7 +205,8 @@
         plugins: [
           RevealNotes,
           RevealSearch,
-          RevealZoom
+          RevealZoom,
+          RevealMarkdown
         ]
       });
     </script>
