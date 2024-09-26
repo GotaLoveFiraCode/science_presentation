@@ -29,32 +29,62 @@
     }
     .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
-  <link rel="stylesheet" href="reveal.js/dist/theme/black.css" id="theme">
+  <link rel="stylesheet" href="reveal.js/dist/theme/moon.css" id="theme">
 </head>
 <body>
   <div class="reveal">
     <div class="slides">
 
+        <section id="welcome" class="slide level1">
+          <h1>Welcome!</h1>
+        </section>
+
         <section id="active-transport" class="slide level1">
+          <section>
             <h1>Active Transport</h1>
 
             <ul>
-              <li>Uses membrane proteins to transport molecules across cells;</li>
-              <li>Energy-driven, gets energy from cell respiration;</li>
-              <li>Is necessary, because it moves substances <em>up</em> concentration gradient;</li>
+              <li>Uses <strong><em>membrane proteins</em></strong> to transport molecules across cells;</li>
+              <li>Is <strong><em>energy driven</em></strong>, meaning that it gets its energy from cell respiration, usually in form of ATP;</li>
+              <li><em>Active transport</em> is necessary, because it moves substances <strong><em>up the concentration gradient</em></strong>.</li>
             </ul>
 
             <aside class="notes">
-              Active Transport is a energy-driven process where membrane proteins
-              transport molecules across cells, mainly classified as primary or
-              secondary, based on how energy is coupled to fuel these mechanisms.
-              This is done through the use of energy produced by cell respiration.
-              The substances move from a low concentrated area to a high concentrated
-              area, which is why active transport if necessary in the first place.
-              If a substance has a higher concentration inside the cell,
-              then the substance would defuse out of the cell, making active
-              transport redundant.
+              Active Transport is a energy-driven process, usually using ATP,
+              where membrane proteins transport molecules across cells, mainly
+              classified as primary or secondary, based on how energy is coupled
+              to fuel these mechanisms. This is done through the use of energy
+              produced by cell respiration. The substances move from a low
+              concentrated area to a high concentrated area, which is why active
+              transport if necessary in the first place. If a substance has a
+              higher concentration inside the cell, then the substance would
+              defuse out of the cell, making active transport redundant.
             </aside>
+          </section>
+
+          <section>
+            <h1>Active Transport</h1>
+
+            <ul>
+              <li>Usually used to accumulate needed molecules like <strong><em>glucose</em></strong> and <strong><em>amino acids</em></strong>;</li>
+              <li>In humans, <em>active transport</em> happens massively in the <strong><em>small intestine</em></strong>;</li>
+              <li>In plants, it largely occurs in the <strong><em>root hair cells</em></strong> and <strong><em>phloem</em></strong>.</li>
+            </ul>
+
+            <aside class="notes">
+              Specifically, active transport is usually used by cells to
+              accumulate needed molecules such as glucose and amino acids.
+              In mamals like humans, a hot-spots for active transport is, for
+              example, the small intestine. However, as plants have no small
+              intestine, active transport largely occurs in root-hair cells and
+              phloem for them, where minerals and sucrose are transported
+              respectively.
+            </aside>
+          </section>
+
+          <section>
+              <img data-src="./active_transport.png" alt="Image `active_transport.png` loading error."/>
+          </section>
         </section>
 
         <section id="Diffusion" class="slide level1">
@@ -66,10 +96,16 @@
         </section>
 
         <section id="thanks-for-coming" class="slide level1">
+          <section>
+            <p><em>A presentation by Laurens, Amit, and John.</em></p>
             <h1>Thanks for Coming!</h1>
-            <p><em>A presentation by Laurens and Amit</em></p>
+            <h2>Any questions?</h2>
+          </section>
+          <section>
+            <h1>Bibliography!</h1>
+            <p><em>Website by Laurens Rosinski using <a href="https://revealjs.com/" target="_blank">reveal.js</a></em></p>
+          </section>
         </section>
-
     </div>
   </div>
 
@@ -104,7 +140,7 @@
         progress: true,
 
         // Display the page number of the current slide
-        slideNumber: true,
+        slideNumber: false,
 
         // 'all', 'print', or 'speaker'
         showSlideNumber: 'all',
